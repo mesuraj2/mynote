@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cls{
+    display: flex;
+align-content: center;
+justify-items: stretch;
+align-items: baseline;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+img{
+    height: 720px;
+}
+
+
+
+.cls div{
+    width: 30%;
+    border: 2px solid rgb(223, 206, 201);
+    border-radius: 30px;
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.data{
+    position:absolute;
+    top: 60px;
+    left: 477px;
+    z-index: 5;
+}
+.data1{
+    position:absolute;
+    top: 0;
+    left: 165px;
+    z-index: 5;
+}
+.data3{
+    position:absolute;
+    top: 96px;
+    left: 70px;
+    z-index: 5;
+}
+.form{
+    user-select: auto;
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+}
+.form input{
+    margin: 2px;
+    border-radius: 8px;
+    padding-left: 3px;
+}
+.form button{
+    width: 18%;
+    margin: auto;
+}
+
+.mgn{
+    margin-left: 103px;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 16px 31px;
+}

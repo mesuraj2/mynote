@@ -1,0 +1,17 @@
+<h1 class=" text-center my-4 ">Welcome to my world</h1>
+    <form  #addNote="ngForm" (ngSubmit)="addnote(addNote.value)" >
+        <input type="text" ngModel name="title" placeholder="title">
+        <input type="text" ngModel  name="desc" placeholder="desc">
+        <button  class="btn btn-primary">add note</button>
+    </form>
+    <p id="danger" class="text-danger"></p>
+    <h1 class="text-center">all Notes</h1>
+    <div id="notes" class=" notes" >
+        <div class="card" style="width: 18rem;" *ngFor=" let obj of noteObj; let indexOfelement=index;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{obj.title}}</h5>
+                        <p class="card-text">{{obj.desc}}</p>
+                        <button  class="btn btn-primary" (click)="deleteNote(indexOfelement)">Delete</button>
+                    </div>
+                </div>
+         </div>
