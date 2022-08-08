@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NotesComponent } from './notes/notes.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FormsModule
+    AppRoutingModule,FormsModule, NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

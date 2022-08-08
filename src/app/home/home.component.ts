@@ -11,5 +11,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  abc:string='assets/img/abc.jpg'
+  landscape_grass:string='assets/img/landscape_grass.jpg'
+  landscape_water:string='assets/img/landscape_water.jpg'
 }
