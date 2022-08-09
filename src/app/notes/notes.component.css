@@ -30,3 +30,12 @@
     right: 0;
     bottom: 10px;
 }
+.mycard{
+    width: 70rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mycard{
+        width: 88vw;
+    }
+}

@@ -9,7 +9,7 @@
     <p id="danger" class="text-danger"></p>
     <h1 class="text-center">all Notes</h1>
     <div id="notes" class=" notes">
-        <div class="card" style="width: 64rem;" *ngFor=" let obj of noteObj; let indexOfelement=index;">
+        <div class="card mycard"  *ngFor=" let obj of noteObj; let indexOfelement=index;">
             <div class="card-body">
                 <h5 class="card-title">{{obj.title}}</h5>
                 <p class="card-text">{{obj.desc}}</p>

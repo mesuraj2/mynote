@@ -12,4 +12,12 @@
     .flex ul{
         flex-direction: row;
     }
+    .data{
+      left: 35px;
+
+    }
+    .myitem{
+      padding-left: 25px;
+    }
+
   }
